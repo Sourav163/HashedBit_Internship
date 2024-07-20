@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 80px auto;
+  gap: 30px;
+}
+
+.page-heading {
+  margin-left: 70px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}

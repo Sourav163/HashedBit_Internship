@@ -1,0 +1,65 @@
+.ticket-details-container {
+  border: 2px dashed black;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 45px 50px;
+  margin: 100px auto;
+  width: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in-out;
+}
+
+.tick-container {
+  display: flex;
+  justify-content: center;
+}
+
+.tick-png {
+  width: 80px;
+  position: absolute;
+  top: 20px;
+}
+
+.tick-heading {
+  position: relative;
+  top: 60px;
+  color: #01a601;
+}
+
+.booking-date {
+  position: absolute;
+}
+
+.booking-id {
+  position: absolute;
+  right: 30px;
+}
+
+.ticket-details-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 60px;
+}
+
+.ticket-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.ticket-details-heading {
+  margin-bottom: 50px;
+}
+
+.ticket-details-name {
+  margin-bottom: 20px;
+}
+
+.ticket-details-contact {
+  margin-bottom: 10px;
+}

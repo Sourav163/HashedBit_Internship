@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply rounded-md bg-violet-800 text-white font-bold ml-2 px-3 py-1 hover:bg-violet-900;
+}
+
+.todo {
+  @apply border border-purple-700 px-3 py-2 rounded mb-3 flex justify-between items-center;
+}

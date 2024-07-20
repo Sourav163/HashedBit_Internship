@@ -1,0 +1,371 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Bree Serif", serif;
+}
+
+body {
+  background-color: black;
+}
+
+.navigation {
+  background-color: navy;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  padding: 0 20px;
+  top: 0px;
+  box-shadow: 0 10px 20px rgba(0, 0, 128, 0.8);
+}
+
+.logo {
+  width: 70px;
+}
+
+.l-primary {
+  display: flex;
+  list-style: none;
+  padding: 0px;
+}
+
+.list a {
+  font-family: "Baloo Bhai", cursive;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  color: white;
+}
+
+.list,
+.list a {
+  transition: 0.2s ease-in-out;
+}
+
+.list a:hover {
+  cursor: pointer;
+  color: yellow;
+}
+
+.list:hover,
+.list a:hover {
+  transform: scale(1.1);
+}
+
+.center {
+  text-align: center;
+}
+
+#h-primary::before {
+  content: "";
+  background: url(FPbgImage.jpg) no-repeat center center/cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  /* height: 51.3rem; */
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.2;
+}
+
+#h-primary {
+  font-size: 3rem;
+  padding: 1rem;
+  color: white;
+  margin-bottom: 0;
+  margin-top: 1.5rem;
+}
+
+#h-section {
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#h-section > p {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.os {
+  padding: 5px 15px;
+  margin: 30px 0;
+  font-size: 1.1rem;
+  border-radius: 2rem;
+  background-color: aqua;
+  transition: all 0.1s ease-in-out;
+  outline: none;
+  border: transparent;
+}
+
+.os:hover {
+  cursor: pointer;
+  background-color: aquamarine;
+  transform: scale(1.1);
+}
+
+#aboutdiv::before {
+  content: "";
+  background: url(aboutdivBG.jpg) no-repeat center center/cover;
+  position: absolute;
+  top: 100vh;
+  left: 0px;
+  /* height: 24.5rem; */
+  height: 70vh;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.2;
+}
+
+#aboutdiv {
+  margin-top: 15vh;
+  color: white;
+}
+
+#aboutdiv h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.cards {
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  gap: 30px;
+}
+
+.card {
+  border: 5px solid greenyellow;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: rgb(220, 255, 168);
+  color: black;
+  word-break: break-all;
+}
+
+#service::before {
+  content: "";
+  background: url(FWbgImage.jpg) no-repeat center center/cover;
+  position: absolute;
+  top: 170vh;
+  left: 0px;
+  /* height: 24.5rem; */
+  height: 70vh;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.2;
+}
+
+#service {
+  font-size: 3rem;
+  color: white;
+  margin-top: 18vh;
+  margin-bottom: 0.5rem;
+}
+
+#container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 90%;
+}
+
+.box {
+  border: 5px solid blue;
+  border-radius: 1rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  background-color: rgb(177, 255, 255);
+}
+
+.secimg {
+  height: 6rem;
+  display: block;
+  margin: auto;
+}
+
+.box > h3 {
+  font-size: 2rem;
+  margin: 1rem 0rem;
+}
+
+.box > p {
+  padding: 0rem 0.8rem;
+}
+
+#contacts::before {
+  content: "";
+  background: url(cuLogo.jpg) no-repeat center center/cover;
+  position: absolute;
+  /* top: 75.8rem; */
+  top: 240vh;
+  left: 0px;
+  /* height: 43.8rem; */
+  height: 50vh;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.2;
+}
+
+#contacts {
+  color: white;
+  margin: 100px 0 70px 0;
+}
+
+#contacts h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+#contacts h2 {
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.social {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+}
+
+.social a {
+  margin: 0 2%;
+  position: relative;
+  transition: 0.1s ease;
+}
+
+.social a:hover {
+  transform: scale(1.2);
+}
+
+#facebook::before {
+  content: "";
+  height: 90%;
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  bottom: 7px;
+  left: 3px;
+  z-index: -1;
+  border-radius: 50%;
+}
+
+#facebook {
+  color: blue;
+  height: 30px;
+  width: 25px;
+}
+
+#twitter::before {
+  content: "";
+  height: 100%;
+  width: 90%;
+  background-color: white;
+  position: absolute;
+  bottom: 5px;
+  left: 1px;
+  z-index: -1;
+  border-radius: 50%;
+}
+
+#twitter {
+  color: black;
+  height: 27px;
+  width: 27px;
+}
+
+#instagram::before {
+  content: "";
+  height: 100%;
+  width: 90%;
+  background-color: white;
+  position: absolute;
+  bottom: 5px;
+  left: 1px;
+  z-index: -1;
+  border-radius: 50%;
+}
+
+#instagram {
+  color: rgb(244, 0, 209);
+  height: 27px;
+  width: 27px;
+}
+
+#linkedin::before {
+  content: "";
+  height: 100%;
+  width: 90%;
+  background-color: white;
+  position: absolute;
+  bottom: 5px;
+  left: 1px;
+  z-index: -1;
+}
+
+#linkedin {
+  color: rgb(10, 102, 194);
+  height: 27px;
+  width: 27px;
+  border-radius: 0;
+}
+
+#reddit::before {
+  content: "";
+  height: 100%;
+  width: 90%;
+  background-color: white;
+  position: absolute;
+  bottom: 5px;
+  left: 1px;
+  z-index: -1;
+  border-radius: 50%;
+}
+
+#reddit {
+  color: orangered;
+  height: 27px;
+  width: 27px;
+}
+
+#github::before {
+  content: "";
+  height: 100%;
+  width: 90%;
+  background-color: white;
+  position: absolute;
+  bottom: 5px;
+  left: 1px;
+  z-index: -1;
+  border-radius: 50%;
+}
+
+#github {
+  color: black;
+  height: 27px;
+  width: 27px;
+}
+
+footer {
+  background-color: white;
+  position: relative;
+  top: 0.1rem;
+  font-family: "Baloo Bhai", cursive;
+}

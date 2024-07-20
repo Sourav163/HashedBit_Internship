@@ -1,0 +1,84 @@
+.navigation {
+    flex-direction: column;
+}
+
+.navigation img {
+    width: 70px;
+    margin: 0;
+}
+
+.navigation ul li a {
+    font-size: 1rem;
+    margin: 0rem 0.3rem;
+    padding: 0.2rem;
+}
+
+.l-primary {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.list {
+    margin-top: 0.7rem;
+}
+
+#h-primary {
+    font-size: 1.8rem;
+}
+
+p {
+    font-size: 0.8rem;
+}
+
+#service {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+#container {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    max-width: 20rem;
+    margin: 0.2rem;
+}
+
+.box>h3 {
+    font-size: 1.5rem;
+}
+
+.h-secondary {
+    font-size: 1.7rem;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+}
+
+.clntimg {
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.imglg {
+    width: 6rem;
+}
+
+#contact>h1 {
+    font-size: 1.3rem;
+}
+
+label {
+    font-size: 1.1rem;
+}
+
+.form>input,
+textarea {
+    font-size: 1rem;
+    width: 10rem;
+}

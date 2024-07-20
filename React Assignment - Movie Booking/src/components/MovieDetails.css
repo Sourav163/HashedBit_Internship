@@ -1,0 +1,52 @@
+.movie-booking-container {
+  border: 2px solid black;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  display: flex;
+  gap: 30px;
+  padding: 45px 50px;
+}
+
+.movie-details-img {
+  width: 300px;
+}
+
+.movie-book {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* width: 500px; */
+}
+
+.title {
+  margin-top: 30px;
+}
+
+.genre {
+  color: rgb(90, 90, 90);
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.book-seat {
+  background-color: greenyellow;
+  border: 3px solid #f0f0f0;
+  border-radius: 10px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 30px;
+  padding: 10px 30px;
+  font-weight: bolder;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.book-seat:hover {
+  background-color: #f0f0f0;
+  border-color: greenyellow;
+}
